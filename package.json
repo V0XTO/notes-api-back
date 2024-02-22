@@ -1,0 +1,25 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "3.0.3",
+    "standard": "17.1.0"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "^4.18.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
